@@ -91,6 +91,15 @@ nav > a > svg {
   justify-content: space-between;
 }
 
+#logo {
+  position: absolute;
+  top: 160pt;
+  left: 4rem;
+  z-index: 0;
+  height: 80px;
+  display: none;
+}
+
 #main-section > div {
   margin-right: 5rem;
 }
@@ -215,23 +224,24 @@ nav > a > svg {
 }
 
 #github-icon {
-  stroke-width: 1pt;
+  stroke-width: 0.8pt;
   stroke: grey;
   fill: none;
   stroke-linecap: round;
   stroke-linejoin: round;
 }
 
-#linkedin-icon {
-  stroke-width: 1pt;
-  stroke: grey;
-  fill: none;
+#discord-icon {
+  height: 25pt;
+  width: 29pt;
+  fill: grey;
   stroke-linecap: round;
   stroke-linejoin: round;
 }
 
 #tiktok-icon {
-  stroke-width: 1.1pt;
+  stroke-width: 0.9pt;
+  height: 21pt;
   stroke: none;
   fill: grey;
 }

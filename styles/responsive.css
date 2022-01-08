@@ -81,6 +81,9 @@
     height: 13pt;
     width: 13pt;
   }
+  #logo {
+    height: 70px;
+  }
   #main-section > div > p {
     font-size: 0.9rem;
   }
@@ -133,6 +136,10 @@
   footer {
     padding: 8pt 2rem;
   }
+  #logo {
+    left: 2rem;
+    height: 70px;
+  }
   #main-section > div > h4 {
     font-size: 1.1rem;
     line-height: 2rem;
@@ -142,6 +149,13 @@
 @media only screen and (max-width: 750px) {
   nav > a {
     height: 28pt;
+  }
+  #logo {
+    top: 110pt;
+    height: 70px;
+  }
+  #social-section > h2:nth-child(2) {
+    -webkit-text-stroke: 1pt white;
   }
   #main-section {
     padding-top: 15pt;
@@ -173,6 +187,10 @@
 }
 
 @media only screen and (max-width: 620px) {
+  #logo {
+    top: 100pt;
+    height: 60px;
+  }
   #main-section > div > h4 {
     margin-top: 160pt;
   }
@@ -194,6 +212,10 @@
   }
   nav > h1 {
     font-size: 1.1rem;
+  }
+  #logo {
+    top: 100pt;
+    height: 12vw;
   }
   #main-section > div > p {
     font-size: 0.8rem;

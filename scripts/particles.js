@@ -22,12 +22,6 @@ window.addEventListener("mousemove", (event) => {
   mouse.y = event.y;
 });
 
-window.addEventListener("touchmove", (event) => {
-  let touch = event.changedTouches[0];
-  mouse.x = touch.clientX;
-  mouse.y = touch.clientY;
-});
-
 // init font drawing
 ctx.fillStyle = cfg.color;
 ctx.font = cfg.font;
